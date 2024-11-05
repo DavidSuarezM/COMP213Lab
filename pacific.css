@@ -3,37 +3,55 @@
 }
 
 body{
-    background-color:#90C7E3;
+    background-color:#88D8ED;
     color:#666666;
     font-family:Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#FFFFFF,#90C7E3);
-    background-repeat: no-repeat;
+    
 }
 
 header{
+    background-repeat: no-repeat;
     background-color:#000033;
     color:#FFFFFF;
-    background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
     background-position: right;
-    height: 60px;
+    height: 120px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-left: 3em;
 
 }
 
 nav{
-    background-color:#FFFFFF;
-    text-align: center;
     font-weight:bold;
-    padding: 10px;
+    padding: 1.5em;
+    font-size: 120%;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    color:#5C7FA3
+}
+nav a:visited{
+    color:#344873
+}
+nav a:hover{
+    color:#A52A2A
 }
 
 main{
-    padding-left: 20px;
-    padding-top: 1px;
-    padding-right: 20px;
-    padding-bottom: 1px;
+    padding: 1px 20px 20px;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
 }
 h1, h2, h3 {
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -51,9 +69,11 @@ h2{
 h1 {
     margin-bottom:0px;
     margin-top: 0px;
+    font-size: 3em;
+    letter-spacing: 0.25em;
 }
 
-ul {
+main ul {
     list-style-image: url(images/marker.gif);
 }
 
@@ -74,6 +94,7 @@ tr:nth-of-type(odd) {
 footer {
     font-size: 75%;
     padding: 20px;
+    background-color: #FFFFFF;
 }
 
 label{
@@ -99,10 +120,11 @@ input, textarea{
 }
 #wrapper{
     width: 80%;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px #333333;
+    background-image: linear-gradient(#FFFFFF,#90C7E3);
 
 }
 
@@ -111,16 +133,19 @@ input, textarea{
     background-image: url(images/coast.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #yurthero {
     height: 300px;
     background-image: url(images/yurt.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #trailhero {
     height: 300px;
     background-image: url(images/trail.jpg);
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
