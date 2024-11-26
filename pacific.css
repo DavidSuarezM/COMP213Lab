@@ -37,6 +37,11 @@ nav ul{
     font-size: 1.2em;
 }
 
+nav a {
+    transition-property: color;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
 nav a:link{
     color:#5C7FA3
 }
@@ -52,7 +57,9 @@ main{
     width: 70%;
     display: inline-block;
     vertical-align: top;
+    background-color:#FFFFFF;
 }
+
 h1, h2, h3 {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
@@ -104,6 +111,11 @@ label{
 input, textarea{
     display: block;
     margin-bottom: 20px;
+}
+
+video {
+    float: right;
+    padding: 0 px 20px;
 }
 
 .text{
@@ -158,6 +170,23 @@ input, textarea{
 #desktop{
     display:inline;
 }
+
+#gallery {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    align-items: center;
+}
+
+#thumbnails{
+    align-items: center;
+}
+
+#bigImage {
+    width: 100%;
+    height: auto;
+}
+
 /*TABLET VIEW*/
 @media only screen and (max-width: 1024px) {
     body{
